@@ -1,6 +1,6 @@
 function delay(ms) {
 	return new Promise((resolve, reject) => {
-		setInterval(() => {
+		setTimeout(() => {
 			resolve()
 		}, ms)
 	})
